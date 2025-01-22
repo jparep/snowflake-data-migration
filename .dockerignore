@@ -1,0 +1,45 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.venv
+.venv/
+
+# SQL
+*.sql
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Data
+*.csv
+*.tsv
+*.json
+*.parquet
+*.xml
+
+# Environment
+.env
+*.env
+
+# DBT
+dbt_modules/
+target/
+logs/
+manifest.json
+run_results.json
+
+# Postgres
+*.dump
+*.backup
+.pgdata
+pgdata/
